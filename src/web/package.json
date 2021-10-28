@@ -1,0 +1,48 @@
+{
+  "name": "opensource-honeycomb-web",
+  "version": "1.0.0",
+  "description": "opensource-honeycomb-web",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open"
+  },
+  "keywords": [
+    "react",
+    "opensource-honeycomb-web",
+    "async-dva",
+    "redux"
+  ],
+  "author": "zhangkegui",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-proposal-decorators": "^7.14.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@svgr/webpack": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "css-loader": "^6.3.0",
+    "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "serve": "^11.3.2",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "antd": "^3.26.18",
+    "axios": "^0.22.0",
+    "core-js": "^3.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0"
+  }
+}

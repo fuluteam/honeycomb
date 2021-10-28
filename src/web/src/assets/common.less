@@ -1,0 +1,54 @@
+.job-relate-modal, .wrapper {
+    .ant-table-small > .ant-table-content > .ant-table-body {
+        margin-left: 0;
+        margin-right: 0;
+        overflow: hidden;
+    }
+}
+.nowrap {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrapper {
+    .btn-add {
+        &:before {
+            opacity: 1;
+            content: '+';
+            color: inherit;
+            display: inline;
+            position: static;
+            margin-right: 2px;
+            background: transparent;
+        }
+    }
+    .ant-form {
+        margin-bottom: -12px;
+    }
+    .btn-group {
+        float: right;
+        margin-right: 0;
+        button {
+            margin-left: 6px;
+        }
+    }
+    thead {
+        th {
+            background-color: #F1F1F1 !important;
+            color: #919191;
+        }
+    }
+    tbody {
+        .anticon {
+            &:not(:first-child) {
+                margin-left: 12px;
+            }
+            font-size: 16px;
+            cursor: pointer;
+            &:hover {
+                color: #919191;
+            }
+        }
+    }
+}

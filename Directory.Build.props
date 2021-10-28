@@ -1,0 +1,51 @@
+<Project>
+
+  <PropertyGroup>
+    <DefaultTargetFramework>net6.0</DefaultTargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+
+  <!-- framework versions -->
+  <PropertyGroup>
+    <AspNetCoreVersion>6.0.0-rc.2.21480.10</AspNetCoreVersion>
+    <MEXVersion>6.0.0-rc.2.21480.5</MEXVersion>
+    <OrleansVersion>3.5.0</OrleansVersion>
+    <FabronVersion>0.0.1-ci.197</FabronVersion>
+  </PropertyGroup>
+
+  <!-- library versions -->
+  <PropertyGroup>
+    <AspNetCoreAuthenticationApiKeyVersion>5.1.0</AspNetCoreAuthenticationApiKeyVersion>
+    <CronosVersion>0.7.1</CronosVersion>
+    <MicrosoftToolkitDiagnostics>7.0.2</MicrosoftToolkitDiagnostics>
+    <NESTVersion>7.13.2</NESTVersion>
+    <NpgsqlVersion>5.0.7</NpgsqlVersion>
+    <OpenTelemetryExporterOpenTelemetryProtocolVersion>1.2.0-beta1</OpenTelemetryExporterOpenTelemetryProtocolVersion>
+    <OpenTelemetryVersion>1.0.0-rc8</OpenTelemetryVersion>
+    <OrleansProvidersMongoDBVersion>3.3.1</OrleansProvidersMongoDBVersion>
+    <PollyVersion>7.2.2</PollyVersion>
+    <PrometheusNetVersion>5.0.1</PrometheusNetVersion>
+    <StyleCopAnalyzersVersion>1.0.0</StyleCopAnalyzersVersion>
+    <SwashbuckleAspNetCoreVersion>6.2.3</SwashbuckleAspNetCoreVersion>
+  </PropertyGroup>
+
+  <!-- test pkgs -->
+  <PropertyGroup>
+    <CoverletCollectorVersion>3.1.0</CoverletCollectorVersion>
+    <FakeItEasyVersion>7.1.0</FakeItEasyVersion>
+    <FluentAssertionsVersion>6.0.0-beta0002</FluentAssertionsVersion>
+    <MartinCostelloLoggingXUnitVersion>0.1.0</MartinCostelloLoggingXUnitVersion>
+    <MicrosoftTestSdkVersion>16.10.0</MicrosoftTestSdkVersion>
+    <MoqContribHttpClientVersion>1.3.0</MoqContribHttpClientVersion>
+    <MoqVersion>4.16.1</MoqVersion>
+    <OrleansTestKitVersion>3.1.6</OrleansTestKitVersion>
+    <xUnitRunnerVisualStudio>2.4.3</xUnitRunnerVisualStudio>
+    <xUnitVersion>2.4.1</xUnitVersion>
+  </PropertyGroup>
+</Project>

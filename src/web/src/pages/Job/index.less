@@ -1,0 +1,73 @@
+@import '../../assets/common.less';
+
+.wrapper.job-manage {
+    .status-cell {
+        display: flex;
+        align-items: center;
+        &:before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #696666;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        &.status-normal:before {
+            background: #ffc107;
+        }
+        &.status-error:before {
+            background: red;
+        }
+        &.status-paused:before {
+            background: #9a9494;
+        }
+        &.status-complete:before {
+            background: #1684ff;
+        }
+    }
+}
+.job-manage-modal {
+    .ant-modal {
+        .ant-form-item-label, .ant-form-item-control-wrapper {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            float: left;
+        }
+    }
+    .job-time-item {
+        display: inline-block;
+        width: 175px;
+        .ant-form-item-control-wrapper {
+            width: 100%;
+        }
+    }
+    .required-wrapper {
+        label {
+            &:before {
+                display: inline-block;
+                margin-right: 4px;
+                content: '*';
+                font-family: SimSun;
+                line-height: 1;
+                font-size: 14px;
+                color: #f5222d;
+            }
+        }
+    }
+    .preview-link {
+        position: relative;
+        border: 1px solid #d9d9d9;
+        padding: 5px 4px 6px;
+        border-radius: 0 4px 4px 0;
+        color: #696666;
+        border-left: none;
+        &:hover {
+            color: #47a1f1;
+        }
+    }
+}
+.alarm-time-picker .ant-calendar-time-picker {
+    top: 0;
+}

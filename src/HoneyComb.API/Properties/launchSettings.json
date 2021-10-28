@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "HoneyComb.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Localhost"
+      }
+    }
+  }
+}

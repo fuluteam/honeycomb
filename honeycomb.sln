@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{287D42F3-EAB8-4E1F-9D3A-CF86371FD51C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoneyComb.API", "src\HoneyComb.API\HoneyComb.API.csproj", "{08A58700-ED89-41C7-9F66-EDA5467AE2E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoneyComb.Server", "src\HoneyComb.Server\HoneyComb.Server.csproj", "{150D2D2A-51BB-49FC-8F99-9EC2A36AD038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneyComb.Shared", "src\HoneyComb.Shared\HoneyComb.Shared.csproj", "{C7AD9FA4-BA4E-4390-A1D4-25D037B0BF24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A58700-ED89-41C7-9F66-EDA5467AE2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A58700-ED89-41C7-9F66-EDA5467AE2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A58700-ED89-41C7-9F66-EDA5467AE2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A58700-ED89-41C7-9F66-EDA5467AE2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150D2D2A-51BB-49FC-8F99-9EC2A36AD038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150D2D2A-51BB-49FC-8F99-9EC2A36AD038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150D2D2A-51BB-49FC-8F99-9EC2A36AD038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150D2D2A-51BB-49FC-8F99-9EC2A36AD038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AD9FA4-BA4E-4390-A1D4-25D037B0BF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AD9FA4-BA4E-4390-A1D4-25D037B0BF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AD9FA4-BA4E-4390-A1D4-25D037B0BF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AD9FA4-BA4E-4390-A1D4-25D037B0BF24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08A58700-ED89-41C7-9F66-EDA5467AE2E4} = {287D42F3-EAB8-4E1F-9D3A-CF86371FD51C}
+		{150D2D2A-51BB-49FC-8F99-9EC2A36AD038} = {287D42F3-EAB8-4E1F-9D3A-CF86371FD51C}
+		{C7AD9FA4-BA4E-4390-A1D4-25D037B0BF24} = {287D42F3-EAB8-4E1F-9D3A-CF86371FD51C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {258F2045-3CA4-4D53-88ED-61D00D67A973}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+# directories
+**/bin/
+**/obj/
+**/out/
+**/node_modules/
+**/.pulumi/
+
+# files
+Dockerfile*
+**/*.md
+

@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "HoneyComb.Server": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Localhost"
+      }
+    }
+  }
+}
